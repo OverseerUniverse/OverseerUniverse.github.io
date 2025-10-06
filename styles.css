@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: monospace;
+  font-family: Helvetica;
 }
 
 /* CSS for navigation */
@@ -39,7 +39,7 @@ body {
   padding: 0px 0px;
 
   /* Debug border */
-  /* border: solid red; */
+  border: solid red;
 }
 
 .nav-list {
@@ -66,6 +66,7 @@ body {
 .navbar a:hover {
   color: var(--cg-blue);
   text-decoration: underline;
+  font-style: italic;
 }
 
 .navbar a:active {
@@ -77,7 +78,8 @@ body {
 }
 
 .logo a:hover {
-  text-decoration: None;
+  text-decoration: none;
+  font-style: italic;
 }
 
 main {
@@ -104,14 +106,14 @@ main {
   margin: 1em 0 2em 0;
 
   /* Debug border */
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
 }
 
 .item-link {
   width: 70%;
 
   /* Debug border */
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .project-image {
@@ -120,9 +122,8 @@ main {
   height: 500px;
   flex-basis: 50px;
   flex-grow: 2;
-
   /* Debug border */
-  /* border: 2px solid black; */
+  border: 2px solid black;
 }
 
 .project-details {
@@ -141,7 +142,7 @@ main {
   justify-content: center;
 
   /* Debug border */
-  /* border: 2px solid green; */
+  border: 2px solid green;
 }
 
 .project-details a {
@@ -175,13 +176,13 @@ main {
   background-color: #f8f8f8;
   border: 1px solid #ccc;
   border-radius: 5px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-image img {
   max-width: 300px;
   border-radius: 3px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .about-text {
